@@ -1,1 +1,3 @@
-# Post Title
+---
+title: Post Title
+---
