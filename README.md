@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # My First 11ty Blog
 
 Welcome to my first Eleventy.js blog project using WebC! 
