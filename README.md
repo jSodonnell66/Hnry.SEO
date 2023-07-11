@@ -30,8 +30,6 @@ To ensure a smooth development experience, please follow the steps outlined belo
 
 ## Prerequisites
 
-> > > > > > > ccb9fa5 (README added)
-
 Before starting, make sure you have the following software installed on your system:
 
 -Node.js (version 12 or higher)
