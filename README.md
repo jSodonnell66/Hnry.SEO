@@ -14,22 +14,6 @@ To ensure a smooth development experience, please follow the steps outlined belo
 
 ## Prerequisites
 
-# Eleventy.js Blog Setup Guide
-
-Welcome to my first Eleventy.js blog project using WebC!
-
-This README provides step-by-step instructions on how to set up and work with my blog.
-
-This project aims to create a landing page that serves as a hub for others to learn about my professional experience, interests, and aspirations as a software engineer.
-
-The centrepiece will be an "about me" section that provides a comprehensive overview of my background and development journey, showcasing my growth and dedication to expanding my skill set.
-
-Additionally, the blog will include relevant information about my past experiences and accomplishments, highlighting my educational background, work history, and notable projects to provide a broader perspective on my professional development.
-
-To ensure a smooth development experience, please follow the steps outlined below:
-
-## Prerequisites
-
 Before starting, make sure you have the following software installed on your system:
 
 -Node.js (version 12 or higher)
