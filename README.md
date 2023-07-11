@@ -1,19 +1,19 @@
 # My First 11ty Blog
 
-Welcome to my first Eleventy.js blog project using WebC! 
+Welcome to my first Eleventy.js blog project using WebC!
 
-This README provides step-by-step instructions on how to set up and work with my blog. 
+This README provides step-by-step instructions on how to set up and work with my blog.
 
-This project aims to create a landing page that serves as a hub for others to learn about my professional experience, interests, and aspirations as a software engineer. 
+This project aims to create a landing page that serves as a hub for others to learn about my professional experience, interests, and aspirations as a software engineer.
 
-The centrepiece will be an "about me" section that provides a comprehensive overview of my background and development journey, showcasing my growth and dedication to expanding my skill set. 
+The centrepiece will be an "about me" section that provides a comprehensive overview of my background and development journey, showcasing my growth and dedication to expanding my skill set.
 
 Additionally, the blog will include relevant information about my past experiences and accomplishments, highlighting my educational background, work history, and notable projects to provide a broader perspective on my professional development.
- 
+
 To ensure a smooth development experience, please follow the steps outlined below:
 
-## Prerequisites 
-=======
+## Prerequisites
+
 # Eleventy.js Blog Setup Guide
 
 Welcome to my first Eleventy.js blog project using WebC!
@@ -29,7 +29,8 @@ Additionally, the blog will include relevant information about my past experienc
 To ensure a smooth development experience, please follow the steps outlined below:
 
 ## Prerequisites
->>>>>>> ccb9fa5 (README added)
+
+> > > > > > > ccb9fa5 (README added)
 
 Before starting, make sure you have the following software installed on your system:
 
@@ -82,10 +83,6 @@ npm run dev
 
 This command will compile the blog and start a local development server. Access the blog in your web browser at http://localhost:8080.
 
-<<<<<<< HEAD
-
-=======
->>>>>>> ccb9fa5 (README added)
 ## Note on webc Syntax Highlighting
 
 Please be aware that webc is a relatively new technology, and as such, syntax highlighting may be inconsistent or not fully supported in all code editors. Exercise caution and ensure you are following webc principles by referencing the official WebC documentation and resources provided by Eleventy.
