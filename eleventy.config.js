@@ -12,7 +12,7 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.setTemplateFormats(["md", "webc", "html", "liquid"]);
 
-    eleventyConfig.setLibrary("md", require("markdown-it"));
+    eleventyConfig.setLibrary("md", require("markdown-it")());
 
     return {
         dir: {
