@@ -10,6 +10,10 @@ module.exports = function (eleventyConfig) {
 
     eleventyConfig.addPassthroughCopy("static");
 
+    eleventyConfig.addPassthroughCopy("_posts");
+
+    eleventyConfig.addPassthroughCopy("_includes");
+
     eleventyConfig.setTemplateFormats(["md", "webc", "html", "liquid"]);
 
     eleventyConfig.setLibrary("md", require("markdown-it")());
