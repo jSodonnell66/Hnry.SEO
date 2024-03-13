@@ -1,24 +1,24 @@
 const pluginWebc = require("@11ty/eleventy-plugin-webc");
 
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPlugin(pluginWebc);
+    eleventyConfig.addPlugin(pluginWebc, {
+        components: "_components/**/*.webc",
+        useTransform: false,
+        transformData: {},
+        bundlePluginOptions: {},
+    });
 
-  eleventyConfig.addPassthroughCopy("static");
+    eleventyConfig.addPassthroughCopy("static");
 
-  eleventyConfig.setOutputDir("public");
+    eleventyConfig.setTemplateFormats(["md", "webc", "html", "liquid"]);
 
-  eleventyConfig.setTemplateFormats(["md", "webc", "html"]);
+    eleventyConfig.setLibrary("md", require("markdown-it"));
 
-  eleventyConfig.setLibrary(
-    "md",
-    require("markdown-it")(/* your options here */)
-  );
-
-  // Add other custom configurations or filters as needed
-
-  // Add collections or custom data as needed
-
-  // Add custom shortcodes as needed
-
-  // Return any additional configuration options
+    return {
+        dir: {
+            input: "_src",
+            output: "_site",
+            includes: "_includes",
+        },
+    };
 };
