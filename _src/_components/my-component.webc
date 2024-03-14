@@ -1,7 +1,4 @@
-<template>
-    <!-- Define the navigation bar structure -->
-    <div class="navbar"></div>
-</template>
+<div class="navbar"></div>
 
 <style>
     /* Style the navigation bar */

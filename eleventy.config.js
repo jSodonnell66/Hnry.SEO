@@ -5,7 +5,7 @@ module.exports = function (eleventyConfig) {
     eleventyConfig.addPlugin(EleventyRenderPlugin);
 
     eleventyConfig.addPlugin(pluginWebc, {
-        components: "_components/*.webc",
+        components: "_src/_components/*.webc",
         useTransform: false,
         transformData: {},
         bundlePluginOptions: {},

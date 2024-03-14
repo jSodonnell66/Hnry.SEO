@@ -14,7 +14,9 @@
 
 <main>
 {{ content }}
+    {% renderTemplate "webc" %}
     <my-component></my-component>
+    {% endrenderTemplate %}
 </main>
 
 <footer>
