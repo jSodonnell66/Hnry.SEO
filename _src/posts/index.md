@@ -1,5 +1,5 @@
 ---
-layout: wrapper.njk
+layout: layouts/wrapper.njk
 title: Welcome to My Blog!
 ---
 

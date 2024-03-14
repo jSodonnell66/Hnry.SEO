@@ -1,5 +1,5 @@
 ---
-layout: post-1.njk
+layout: layouts/wrapper.njk
 title: Post 1
 ---
 
