@@ -8,6 +8,10 @@ module.exports = function (eleventyConfig) {
         bundlePluginOptions: {},
     });
 
+    eleventyConfig.addCollection('post', function(collectionApi) {
+        return collectionApi.getFilteredByTag('post').sort((a, b) => b.date - a.date);
+    });
+
     eleventyConfig.addPassthroughCopy("static");
 
     eleventyConfig.setTemplateFormats(["md", "webc", "html", "liquid"]);

@@ -5,7 +5,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{{ title }}</title>
+    <title>Welcome to My Blog!</title>
     <!-- Add your additional head elements if needed -->
 </head>
 <body>
@@ -13,12 +13,16 @@
 </header>
 
 <main>
-{{ content }}
+<h1>Welcome to My Blog!</h1>
+<p>This is my personal blog where I share my thoughts, projects, and more. Explore the articles below:</p>
+<ul>
+<li><a href="/post-1/">Post 1</a></li>
+<li><a href="/post-2/">Post 2</a></li>
+</ul>
+
     <nav>
         <ul>
-            {% for post in collections.post %}
-            <li><a href="{{ post.url }}">{{ post.data.title }}</a></li>
-            {% endfor %}
+            
         </ul>
     </nav>
 </main>
