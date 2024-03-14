@@ -11,7 +11,8 @@
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^2.0.1",
-    "@11ty/eleventy-plugin-webc": "^0.11.1"
+    "@11ty/eleventy-plugin-webc": "^0.11.1",
+    "nunjucks": "^3.2.4"
   },
   "dependencies": {
     "markdown-it": "^14.0.0"
