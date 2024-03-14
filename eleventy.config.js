@@ -12,6 +12,12 @@ module.exports = function (eleventyConfig) {
         return collectionApi.getAll().filter(item => item.data.layout !== 'landing').sort((a, b) => b.date - a.date);
     });
 
+    const { EleventyRenderPlugin } = require("@11ty/eleventy");
+
+    module.exports = function(eleventyConfig) {
+        eleventyConfig.addPlugin(EleventyRenderPlugin);
+    };
+
     eleventyConfig.addPassthroughCopy("static");
 
     eleventyConfig.setTemplateFormats(["md", "webc", "html", "liquid"]);
