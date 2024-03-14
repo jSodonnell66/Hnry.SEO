@@ -9,3 +9,4 @@ This is my personal blog where I share my thoughts, projects, and more. Explore 
 
 - [Post 1](/_site/_pages/post-1/index.html/)
 - [Post 2](/_site/_pages/post-2/index.html/)
+
