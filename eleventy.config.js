@@ -9,7 +9,7 @@ module.exports = function (eleventyConfig) {
     });
 
     eleventyConfig.addCollection('post', function(collectionApi) {
-        return collectionApi.getFilteredByTag('post').sort((a, b) => b.date - a.date);
+        return collectionApi.getAll().filter(item => item.data.layout !== 'landing').sort((a, b) => b.date - a.date);
     });
 
     eleventyConfig.addPassthroughCopy("static");
