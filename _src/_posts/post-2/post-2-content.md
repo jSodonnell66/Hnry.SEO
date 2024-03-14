@@ -1,9 +1,9 @@
 ---
-layout: post-2-template.liquid
+layout: layout.html
 title: Post 2
 ---
 
-# Content of Post 1 goes here
+**Content of Post 1 goes here**
 
 
 I am post number two. 
