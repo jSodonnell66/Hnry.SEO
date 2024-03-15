@@ -4,9 +4,9 @@ module.exports = function (eleventyConfig) {
 
     return {
         dir: {
-            input: "_src",
+            input: "_posts",
             output: "_site",
-            includes: "includes",
+            includes: "../_includes", // Adjusted path to the _includes directory
         },
     };
 };
