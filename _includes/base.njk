@@ -7,24 +7,16 @@
     <!-- Add your additional head elements if needed -->
 </head>
 <body>
-    <header>
-        <h1>Welcome to My Website</h1>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/about">About</a></li>
-                <li><a href="/contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+{% include "header.njk" %}
 
-    <main>
-        {% block content %}
-        {% endblock %}
-    </main>
+<main>
+    {% block content %}
+    {{ content | safe }}
+    {% endblock %}
+</main>
 
-    <footer>
-        <p>&copy; 2024 My Website. All rights reserved.</p>
-    </footer>
+<footer>
+    <p>&copy; 2024 Jack O'Donnell.</p>
+</footer>
 </body>
 </html>
