@@ -18,5 +18,5 @@ HnrySiteOptimiser is a single-page application developed to facilitate the revie
     <button type="submit">Go</button>
 </form>
 
-<script src="../scripts/script.js"></script>
+<script src="../_scripts/script.js"></script>
 
