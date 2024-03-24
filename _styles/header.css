@@ -1,0 +1,28 @@
+/* header.css */
+.header {
+    background-color: #f0f0f0; 
+    padding: 20px;
+}
+
+.header-title {
+    color: #333; 
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.logo {
+    background-image: url('path/to/your/logo/image.png');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    height: auto;
+    width: 100px;
+}
+
+

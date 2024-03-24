@@ -4,20 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{% block title %}My Website{% endblock %}</title>
-    <!-- Add your additional head elements if needed -->
-    <link rel="stylesheet" href="styles.css"> <!-- Include CSS file -->
+   <link rel="stylesheet" href="base.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="footer.css"> 
+    <link rel="stylesheet" href="footer.css">
 </head>
-<body>
-{% include "header.njk" %}
+<body class="body">
+<header class="header">
+    <nav class="nav">
+        <ul class="nav-links">
+            <!-- Placeholder for navigation links -->
+        </ul>
+    </nav>
+    <div class="header-content">
+        <h1 class="header-title">{{ title }}</h1>
+        <img src="logo.png" alt="Logo" class="logo"> <!-- Placeholder for logo -->
+    </div>
+</header>
 
-<main>
+<main class="main">
     {% block content %}
     {{ content | safe }}
     {% endblock %}
 </main>
 
-<footer>
-    <p>&copy; 2024 Jack O'Donnell.</p>
+<footer class="footer">
+    <p class="footer-text">&copy; 2024 Jack O'Donnell.</p>
 </footer>
     
 <script src="../_scripts/script.js"></script> 
