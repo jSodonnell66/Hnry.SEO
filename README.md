@@ -1,4 +1,4 @@
-## Introduction
+## Introduction ##
 
 **Hnry.SEO** is a single-page application tailored for presenting SEO findings in a clear and accessible manner. Developed for the Web Developer interview at Hnry, Wellington, it serves as a demonstration of practical skills in web development.
 
