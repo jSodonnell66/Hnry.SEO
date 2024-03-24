@@ -1,16 +1,20 @@
-# My First 11ty Blog
+## Introduction
 
-Welcome to my first Eleventy.js blog project using WebC!
+**Hnry.SEO** is a single-page application tailored for presenting SEO findings in a clear and accessible manner. Developed for the Web Developer interview at Hnry, Wellington, it serves as a demonstration of practical skills in web development.
 
-This README provides step-by-step instructions on how to set up and work with my blog.
+## Purpose
 
-This project aims to create a landing page that serves as a hub for others to learn about my professional experience, interests, and aspirations as a software engineer.
+**Hnry.SEO** aims to provide a user-friendly interface for presenting SEO findings effectively. It showcases the results of the Hnry website assessment in a sleek and modern format, highlighting key insights and proposed improvements.
 
-The centrepiece will be an "about me" section that provides a comprehensive overview of my background and development journey, showcasing my growth and dedication to expanding my skill set.
+## Features
 
-Additionally, the blog will include relevant information about my past experiences and accomplishments, highlighting my educational background, work history, and notable projects to provide a broader perspective on my professional development.
+- **Sleek Design**: Utilizes a Jekyll template inspired by Swagger API UI for a visually appealing experience.
+- **Focused Content**: Tailored specifically for showcasing SEO findings related to the Hnry website.
+- **Intuitive Navigation**: Single-page layout with easy-to-use navigation elements for seamless exploration.
+- **Interactive Elements**: Incorporates interactive elements to enhance user engagement and understanding.
 
-To ensure a smooth development experience, please follow the steps outlined below:
+**Hnry.SEO** demonstrates the ability to leverage modern web technologies to deliver practical solutions for real-world challenges in web development.
+
 
 ## Prerequisites
 
@@ -40,40 +44,15 @@ cd <project-directory>
 npm install
 ```
 
-4. Configure the webc extension:
 
-The Eleventy.js blog project includes WebC files, which require the WebC extension to be installed. Follow these steps to update the settings.json file and associate .webc and .njk files with HTML:
-
-- Open the settings.json file in your preferred code editor.
-
-- Locate the files.associations section.
-
-- Add the following code snippet:
-
-```
-"files.associations": {
-  "*.webc": "html",
-  "*.njk": "html"
-}
-```
-
-5. Build and run the project:
+4. Build and run the project:
 
 ```
 npm run dev
 ```
 
-This command will compile the blog and start a local development server. Access the blog in your web browser at http://localhost:8080.
+This command will compile the blog and start a local development server. Access the SPA in your web browser at http://localhost:8080.
 
-## Note on webc Syntax Highlighting
-
-Please be aware that webc is a relatively new technology, and as such, syntax highlighting may be inconsistent or not fully supported in all code editors. Exercise caution and ensure you are following webc principles by referencing the official WebC documentation and resources provided by Eleventy.
-
-For more information and detailed documentation about Eleventy.js and WebC, please visit the following resources:
-
-- Eleventy Documentation
-
-- WebC Specification
 
 ### Contributing
 
