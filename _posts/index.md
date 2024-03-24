@@ -11,9 +11,9 @@ HnrySiteOptimiser is a single-page application developed to facilitate the revie
     <label for="post-select">Select an issue from the drop down menu:</label>
     <select id="post-select">
         <option value="" disabled selected>Select a post</option>
-        <option value="../_site/post-1/index.html">Post 1</option>
-        <option value="../_site/post-2/index.html">Post 2</option>
-        <option value="../_site/post-3/index.html">Post 3</option>
+        <option value="../site/post-1/index.html">Post 1</option>
+        <option value="../site/post-2/index.html">Post 2</option>
+        <option value="../site/post-3/index.html">Post 3</option>
     </select>
     <button type="submit">Go</button>
 </form>
