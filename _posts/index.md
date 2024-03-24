@@ -1,9 +1,22 @@
 ---
 layout: base.njk
-title: Welcome to My Blog!
+title: Welcome to the Hnry Site Optimiser!
 ---
 
-This is my personal blog where I share my thoughts, projects, and more. Explore the articles below:
+{% raw %}
+HnrySiteOptimiser is a single-page application developed to facilitate the review and improvement process for the Hnry website. This tool aims to provide a comprehensive analysis of the Hnry website's performance, usability, and SEO effectiveness, serving as a valuable resource for optimizing the website's overall effectiveness.
+{% endraw %}
 
-- [Post 1](/_site/post-1/index.html/)
-- [Post 2](/_site/post-2/index.html/)
+<form id="post-form">
+    <label for="post-select">Select an issue from the drop down menu:</label>
+    <select id="post-select">
+        <option value="" disabled selected>Select a post</option>
+        <option value="/post-1/">Post 1</option>
+        <option value="/post-2/">Post 2</option>
+        <option value="/post-3/">Post 3</option>
+    </select>
+    <button type="submit">Go</button>
+</form>
+
+<script src="../scripts/script.js"></script>
+
