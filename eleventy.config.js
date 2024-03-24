@@ -11,7 +11,7 @@ module.exports = function (eleventyConfig) {
         dir: {
             input: "_posts",
             output: "site",
-            includes: "/_includes"
+            includes: "../_includes"
         },
     };      
 };
