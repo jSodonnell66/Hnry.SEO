@@ -15,20 +15,22 @@
     </nav>
     <div class="header-content">
         <h1 class="header-title">{{ title }}</h1>
-        <img src="logo.png" alt="Logo" class="logo"> <!-- Placeholder for logo -->
+        <!-- Placeholder for logo -->
     </div>
 </header>
 
 <main class="main">
     {% block content %}
     {{ content | safe }}
+    {% include "dropdown.njk" %}
     {% endblock %}
 </main>
 
 <footer class="footer">
     <p class="footer-text">&copy; 2024 Jack O'Donnell.</p>
-</footer>
-    
-<script src="/scripts/script.js"></script>    
+</footer> 
+
+<script src="/scripts/script.js"></script>
 </body>
 </html>
+

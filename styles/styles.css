@@ -1,64 +1,57 @@
-
-.main {
+body {
     background-color: #f9f9f9;
-    padding: 20px;
-}
-
-.main-content {
-    margin: 0 auto;
-    max-width: 800px;
-}
-
-.nav {
-    background-color: #333;
-    padding: 10px;
-}
-
-.nav-links {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav-links li {
-    display: inline;
-    margin-right: 10px;
-}
-
-.nav-links li a {
+    background-image: url("nisonco-pr-and-seo-40Ji24OuUeQ-unsplash.jpg");
+    background-position: center top 40px; /* Adjust the vertical position */
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #fff;
-    font-weight: bold;
-    text-decoration: none;
+    padding: 50px;
+    margin: 0; /* Reset default margin */
 }
 
-.footer {
-    background-color: #333; /* Background color for footer */
-    color: #fff; /* Footer text color */
-    padding: 20px;
-}
-
-.header {
-    background-color: #f0f0f0; 
-    padding: 20px;
-}
-
-.header-title {
-    color: #333; 
-}
 
 .nav {
     display: flex;
     justify-content: center;
 }
 
-.nav-links {
-    list-style: none;
+.post-form {
+    margin-top: 20px;
 }
 
-.logo {
-    background-image: url('path/to/your/logo/image.png');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    height: auto;
-    width: 100px;
+.post-select {
+    font-size: 16px;
+    padding: 10px;
 }
+.main, 
+.header {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 30px 20px; /* Increase top and bottom padding */
+    color: #fff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header-title {
+    color: #fff;
+    margin: 0;
+}
+
+.main-content {
+    background-color: rgba(0, 0, 0, 0.5); /* Match header background */
+    border-radius: 10px;
+    padding: 20px;
+    color: #fff;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #000;
+    text-align: center;
+    background-color: transparent;
+}
+

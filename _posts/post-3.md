@@ -1,6 +1,12 @@
 ---
 layout: post.njk
-title: Content of Post 3 goes here
+title: Optimised Content for SEO and User Engagement
 ---
 
-I am post number third. 
+Optimising content is key for improving search visibility and engaging users effectively. 
+
+Keyword research reveals opportunities for content optimisation.
+
+SEMrush data highlights the importance of meta tags and descriptions for search visibility.
+    
+Unused code and missing alt tags detected by Dev tools affect visual appeal and accessibility.
